@@ -6,8 +6,7 @@ function createPhoneNumber(numbers) {
       format = format.replace('x', numbers[i]);
     }
   
-    return format;//retorna a la funcion "crratePhoneNumber"
+    return format;//retorna a la funcion "cratePhoneNumber"
   }
   
   console.log(createPhoneNumber([5, 5, 5, 1, 3, 4, 7, 8, 9, 0])) ;
-  
